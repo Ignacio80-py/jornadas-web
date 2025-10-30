@@ -1,19 +1,16 @@
 # Jornadas Web
 
-Aplicación web para calcular pagos compartidos y seleccionar aleatoriamente quién paga.
+Aplicación para dividir pagos y seleccionar pagador aleatorio.
 
-## Demo
-https://Ignacio80-py.github.io/jornadas-web/
+## Características
+- Calculadora de división de pagos
+- Selector aleatorio con animaciones
+- Interfaz responsiva
+- Efectos visuales
 
 ## Instalación
 1. Clona el repositorio
-2. Abre index.html en tu navegador
-
-## Características
-- Selector de participantes
-- Calculadora de división de pagos
-- Selector aleatorio con animaciones
-- Efectos visuales
+2. Abre index.html en el navegador
 
 ## Tecnologías
 - HTML5
