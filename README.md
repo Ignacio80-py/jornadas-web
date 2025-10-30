@@ -3,21 +3,19 @@
 Aplicación web para calcular pagos compartidos y seleccionar aleatoriamente quién paga.
 
 ## Demo
-https://ignacio80-py.github.io/jornadas-web/
+https://Ignacio80-py.github.io/jornadas-web/
+
+## Instalación
+1. Clona el repositorio
+2. Abre index.html en tu navegador
 
 ## Características
-- Selección de participantes
-- Cálculo de pagos divididos
-- Selector aleatorio con animación
-- Diseño responsive
-
-## Uso
-1. Marca los participantes que van a compartir el pago
-2. Ingresa la cantidad total
-3. Presiona "Calcular" para dividir el pago
-4. Usa "Pago Aleatorio" para elegir quién paga todo
+- Selector de participantes
+- Calculadora de división de pagos
+- Selector aleatorio con animaciones
+- Efectos visuales
 
 ## Tecnologías
 - HTML5
 - CSS3
-- JavaScript vanilla
+- JavaScript
