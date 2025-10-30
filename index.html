@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1020, initial-scale=1.0">
+    <title>JORNADAS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">JORNADAS</h1>
+        <div class="imagenes-usuarios">
+            <div class="usuario" id="nano-div">
+                <input type="checkbox" id="check-nano">
+                <label for="check-nano">NANO</label>
+                <img id="nano-img" src="img/nano-mini.png" alt="Nano" class="user-img" hidden>
+            </div>
+            <div class="usuario" id="merce-div">
+                <input type="checkbox" id="check-merce">
+                <label for="check-merce">MERCE</label>
+                <img id="merce-img" src="img/merce-mini.png" alt="Merce" class="user-img" hidden>
+            </div>
+            <div class="usuario" id="sergio-div">
+                <input type="checkbox" id="check-sergio">
+                <label for="check-sergio">SERGIO</label>
+                <img id="sergio-img" src="img/sergio-mini.png" alt="Sergio" class="user-img" hidden>
+            </div>
+            <div class="usuario" id="lara-div">
+                <input type="checkbox" id="check-lara">
+                <label for="check-lara">LARA</label>
+                <img id="lara-img" src="img/lara-mini.png" alt="Lara" class="user-img" hidden>
+            </div>
+            <div class="usuario" id="marcos-div">
+                <input type="checkbox" id="check-marcos">
+                <label for="check-marcos">MARCOS</label>
+                <img id="marcos-img" src="img/marcos-mini.png" alt="Marcos" class="user-img" hidden>
+            </div>
+        </div>
+        <div class="aleatorio-div">
+            <input type="checkbox" id="check-aleatorio">
+            <label for="check-aleatorio">Pago Aleatorio</label>
+            <img id="aleatorio-img" class="user-img" src="" alt="Aleatorio" hidden>
+        </div>
+        <div class="ingresar-div">
+            <label for="cantidad-input">Ingresar</label>
+            <input type="text" id="cantidad-input" placeholder=" ">
+            <button id="calcular-btn">Calcular</button>
+            <button id="borrar-btn">Borrar</button>
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <div id="ganador-modal" style="display:none;"></div>
+    <script src="app.js"></script>
+</body>
+</html>
