@@ -186,22 +186,63 @@ body {
 }
 @media (max-width: 800px) {
     .imagenes-usuarios {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 9px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
     }
-    .usuario { height: 145px; }
+    .usuario { 
+        height: 140px;
+        padding: 5px 0 8px;
+    }
+    .user-img {
+        width: 80px;
+        height: 80px;
+    }
 }
+
 @media (max-width: 580px) {
-    .imagenes-usuarios { grid-template-columns: 1fr; }
-    .usuario { height: 120px; }
-    .titulo { font-size: 2rem; }
-    .container, .aleatorio-div, .ingresar-div {
-        padding-left: 2vw; padding-right: 2vw;
+    .imagenes-usuarios { 
+        grid-template-columns: repeat(2, 1fr);
     }
-    #ganador-modal .ganador-img { width: 65vw; height: 65vw; }
-    #ganador-modal .ganador-texto { font-size: 2rem; }
+    .container {
+        margin: 10px auto;
+        padding: 1rem 1rem;
+    }
+    .titulo { 
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    .ingresar-div {
+        padding: 12px 10px;
+    }
+    #ganador-modal .ganador-texto { 
+        font-size: 2.2rem;
+        padding: 0 10px;
+    }
 }
-@media (max-width:410px){
-    .container{padding:8px 2vw;}
-    .titulo{font-size:1.33rem;}
+
+@media (max-width: 410px) {
+    .container {
+        margin: 5px auto;
+        padding: 8px;
+        width: 98vw;
+    }
+    .titulo {
+        font-size: 1.5rem;
+    }
+    .usuario {
+        height: 130px;
+    }
+    .user-img {
+        width: 70px;
+        height: 70px;
+    }
+    .ingresar-div {
+        padding: 10px;
+    }
+    #cantidad-input {
+        width: 90px;
+    }
+    #calcular-btn, #borrar-btn {
+        padding: 5px 15px;
+    }
 }
