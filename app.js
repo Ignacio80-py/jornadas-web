@@ -43,6 +43,8 @@ modalGanador.onclick = function(){
 }
 
 function crearFuegosArtificiales() {
+    const audio = new Audio('audio/risas.mp3');
+    audio.play();
     // Lanza varios fuegos artificiales en posiciones aleatorias del modal
     for(let i=0;i<13;i++){
         const fw = document.createElement('div');
@@ -85,7 +87,7 @@ aleatorioCheck.addEventListener('change', function () {
                 aleatorioCheck.checked = false;
                 aleatorioImg.hidden = true;
                 // Mostrar modal y fuegos artificiales aquí:
-                mostrarGanador(imagenesRutas[ganadorFinal], aleatorioImg.alt || 'Ganador');
+                mostrarGanador(imagenesRutas[4], aleatorioImg.alt || 'Ganador');
             }
         }
         mostrar();
